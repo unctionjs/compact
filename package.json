@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/compact",
+  "version": "1.0.4",
+  "description": "Takes a collection (Array or Object) and returns a copy of that value without `null` or `undefined` values",
   "keywords": [
     "unction",
     "functional"
