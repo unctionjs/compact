@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<any> -> Array<mixed>
+> Array<any> => Array<mixed>
 
 Takes a collection (Array or Object) and returns a copy of that value without `null` or `undefined` values.
 
