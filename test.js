@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, object-property-newline, no-undefined, no-magic-numbers */
+/* eslint-disable object-property-newline, no-undefined, no-magic-numbers */
 import {test} from "tap"
 
 import compact from "./index"
