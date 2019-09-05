@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ArrayType<ValueType | void> => ArrayType
+> EnumerableType<A | null> => EnumerableType<A>
 
 Takes a collection (Array or Object) and returns a copy of that value without `null` or `undefined` values.
 
@@ -13,8 +13,8 @@ Takes a collection (Array or Object) and returns a copy of that value without `n
 avatarUrls // => [null, "/1.jpg", null, "/3.jpg"]
 compact(avatarUrls)  // => ["/1.jpg", "/3.jpg"]
 
-head(users) // {"avatar": null, "name": "Kurtis Rainbolt-Greene"}
-compact(head(users)) // {"name": "Kurtis Rainbolt-Greene"}
+user // {"avatar": null, "name": "Kurtis Rainbolt-Greene"}
+compact(head(user)) // {"name": "Kurtis Rainbolt-Greene"}
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/compact.svg?maxAge=2592000&style=flat-square
