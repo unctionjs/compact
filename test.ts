@@ -1,5 +1,5 @@
 /* eslint-disable object-property-newline, no-undefined, no-magic-numbers */
-import compact from "./index.ts";
+import compact from "./index";
 
 test(() => {
   expect(compact({valueA: 1, valueB: undefined, valueC: null, valueD: []})).toEqual({valueA: 1, valueD: []});
