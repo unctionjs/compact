@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@unction/isnil": "6.6.0",
-    "@unction/rejectbyvalue": "1.6.0",
+    "@unction/rejectbyvalue": "1.7.0",
     "ramda": "0.24.1"
   },
   "files": [
