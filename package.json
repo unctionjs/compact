@@ -64,8 +64,8 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/isnil": "6.6.2",
-    "@unction/rejectbyvalue": "1.9.1",
+    "@unction/isnil": "^6.6.3",
+    "@unction/rejectbyvalue": "^1.11.0",
     "ramda": "0.24.1"
   }
 }
