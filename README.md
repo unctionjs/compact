@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<A | null> => Array<A> | Set<A> | RecordType<unknown, A> | string
+> EnumerableType<A | null> => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string
 
 Takes a collection (Array or Object) and returns a copy of that value without `null` or `undefined` values.
 
