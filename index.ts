@@ -1,8 +1,6 @@
 import rejectByValue from "@unction/rejectbyvalue";
 import isNil from "@unction/isnil";
 
-import {EnumerableType} from "./types";
-
-export default function compact<A> (enumerable: EnumerableType<A | null>): EnumerableType<A> {
+export default function compact<A> (enumerable: EnumerableType<A | null>): Array<A> | Set<A> | RecordType<unknown, A> | string {
   return rejectByValue(isNil)(enumerable);
 }
